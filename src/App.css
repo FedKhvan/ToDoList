@@ -1,38 +1,83 @@
-.App {
-  text-align: center;
-}
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
 }
+button {
+  padding: 0;
+  border: none;
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+  cursor: pointer;
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+form {
+  height: 200px;
+  padding-top:70px;
+  background-color:dimgray;
+  display:flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+h1{
+  background-color:dimgray;
+  padding-top:15px;
+  color:white;
+  display:flex;
+  justify-content:center;
+}
+.myInput {
+  display:flex;
+  width:300px;
+  height:10px;
+}
+#root {
+  display:flex;
+  justify-content: center;
+  padding-top:200px;
 }
 
-.App-link {
-  color: #61dafb;
+.App{
+  width: 800px;
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.myInput {
+  display:flex;
+  width:500px;
+  height:50px;
+}
+
+.btnCreate{
+  padding-top:10px;
+  border-radius: 0px;
+  display:flex;
+  background-color:gray;
+  text-align:center;
+  color:white;
+  width:75px;
+  height:50px;
+}
+
+.task {
+  padding:10px;
+  height:35px;
+  display:flex;
+  justify-content: space-between;
+  background-color:darkgray;
+}
+.task-done {
+  padding:10px;
+  height:35px;
+  display:flex;
+  justify-content: space-between;
+  background-color: gray;
+  /*text-decoration: line-through;*/
+}
+.sort{
+  width:400px;
+}
+.sort button {
+  margin:10px;
 }
